@@ -1,6 +1,6 @@
 {
     "name": "jumpscareFoxy",
-    "version_number": "1.6.1",
+    "version_number": "1.6.2",
     "website_url": "https://github.com/asusplayer/jumpscareFoxy",
     "description": "1/1000 chance for Foxy jumpscare every second. Configurable trigger key (default J) and animation FPS.",
     "dependencies": [

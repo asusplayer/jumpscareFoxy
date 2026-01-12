@@ -12,7 +12,7 @@ using UnityEngine.UI;
 
 namespace jumpscareFoxy;
 
-[BepInPlugin("com.olivr.jumpscareFoxy", "JumpscareFoxy", "1.6.1")]
+[BepInPlugin("com.olivr.jumpscareFoxy", "JumpscareFoxy", "1.6.2")]
 public class jumpscareFoxy : BaseUnityPlugin
 {
     internal static jumpscareFoxy Instance { get; private set; } = null!;
@@ -292,6 +292,7 @@ public class UIManager : MonoBehaviour
         }
 
         isPlaying = true;
+        imageComponent.sprite = frames.Count > 0 ? frames[0] : null;
         imageComponent.color = Color.white;
         jumpscareFoxy.Instance.StartManagedCoroutine(JumpscareSequence(fps, onComplete));
     }
