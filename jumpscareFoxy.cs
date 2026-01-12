@@ -12,7 +12,7 @@ using UnityEngine.UI;
 
 namespace jumpscareFoxy;
 
-[BepInPlugin("com.olivr.jumpscareFoxy", "JumpscareFoxy", "1.5.0")]
+[BepInPlugin("com.olivr.jumpscareFoxy", "JumpscareFoxy", "1.6.0")]
 public class jumpscareFoxy : BaseUnityPlugin
 {
     internal static jumpscareFoxy Instance { get; private set; } = null!;
